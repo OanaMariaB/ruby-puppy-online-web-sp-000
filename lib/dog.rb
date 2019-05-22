@@ -10,9 +10,9 @@ def initialize(name)
 end
 
 def self.all
-  all_dogs = Array.new(0)
-  @@all.each {|dog| all_dogs[all] += 1}
-  puts all_dogs
+  @@all.each do |dog|
+    puts dog.name
+  end
 end
 
 
