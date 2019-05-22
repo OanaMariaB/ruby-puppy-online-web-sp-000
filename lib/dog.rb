@@ -9,6 +9,9 @@ def initialize(name)
   @@all << self
 end
 
+def self.all
+  puts @@all
+end
 
 
 end
