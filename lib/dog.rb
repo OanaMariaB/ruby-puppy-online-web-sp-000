@@ -15,7 +15,7 @@ def self.all
   end
 end
 
-def clear_all(@@all)
+def clear_all
   @@all.clear
 end
 
