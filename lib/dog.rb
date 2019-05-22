@@ -10,8 +10,7 @@ def initialize(name)
 end
 
 def self.all
-  @@all.each {|dog| dog +=1}
-  puts @@all
+  @@all
 end
 
 
